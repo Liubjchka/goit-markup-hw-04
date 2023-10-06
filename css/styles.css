@@ -132,11 +132,15 @@ color: #404bbf;
 background: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url(../images/background/people-office\ 1-min.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .main-page-title {
 color: #FFF;
-background-color: #2E2F42;
 text-align: center;
 font-size: 56px;
 font-weight: 700;
@@ -287,7 +291,36 @@ font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.02em;
 line-height: 1.5;
+margin-bottom: 8px;
 }
+
+.icon-list{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+}
+
+.main-soc-item{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+}
+
+.main-soc-link{
+width: 100%;
+height: 100%;
+}
+
+.icon{
+fill: none;
+color: #F4F4FD;
+}
+
 
 .portfolio {
 background-color: #FFF;
